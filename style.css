@@ -3,22 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     background-color: dodgerblue;
     padding: 25px;
     color: white;
     text-align: center;
 }
+
 footer{
     padding: 15px;
     background-color: rgb(33, 20, 214);
     color: white;
     text-align: center;
 }
+
 div{
     border-style:solid;
     border-color: black;
 }
+
 h1{
     text-align: center;
 }
@@ -29,12 +33,14 @@ p{
     font-size: x-large;
     text-align: center;
 }
+
 [class*="col-"]{
     float: left;
     width: 80%;
     margin: 3px 3px 3px 50px;
     border-radius: 20px;
 }
+
 main{
     display: flex;
 }
@@ -46,9 +52,10 @@ main{
     .col-s-1 {width: 45%;margin: 7px 7px 7px 20px;border-radius: 20px;}
     .col-s-2 {width: 95%;margin: 7px 7px 7px 20px;border-radius: 20px;}
 }
+
 @media only screen and (min-width: 900px) {
     header{background-color: rgb(157, 156, 156);}
     body{background-color: rgb(212, 212, 212);}
     footer{background-color: rgb(62, 62, 62);}
-    .col-1 {width: 32%;margin: 4px ;border-radius: 20px;}
+    .col-1 {width: 32%;margin: 4px 4px 4px 7px ;border-radius: 20px;}
 }
