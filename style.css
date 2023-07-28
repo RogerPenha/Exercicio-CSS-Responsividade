@@ -31,7 +31,9 @@ p{
 }
 [class*="col-"]{
     float: left;
-    width: 100%;
+    width: 80%;
+    margin: 3px 3px 3px 50px;
+    border-radius: 20px;
 }
 main{
     display: flex;
@@ -41,12 +43,12 @@ main{
     header{background-color: green;}
     body{background-color: yellowgreen;}
     footer{background-color: darkgreen;padding: 15px;}
-    .col-s-1 {width: 50%;}
-    .col-s-2 {width: 100%;}
+    .col-s-1 {width: 45%;margin: 7px 7px 7px 20px;border-radius: 20px;}
+    .col-s-2 {width: 95%;margin: 7px 7px 7px 20px;border-radius: 20px;}
 }
 @media only screen and (min-width: 900px) {
     header{background-color: rgb(157, 156, 156);}
     body{background-color: rgb(212, 212, 212);}
     footer{background-color: rgb(62, 62, 62);}
-    .col-1 {width: 33.33%;}
+    .col-1 {width: 32%;margin: 4px ;border-radius: 20px;}
 }
